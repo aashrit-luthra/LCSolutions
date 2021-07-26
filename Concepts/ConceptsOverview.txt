@@ -1,0 +1,8 @@
+The Concepts I Need To Know:
+* Dynamic Programming
+* Sorting
+* Recursion
+* Sliding Window
+* BFS
+* DFS
+* Shortest Path (ex: Dijkstra's Algorithm)

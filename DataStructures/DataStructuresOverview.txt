@@ -1,0 +1,19 @@
+Data Structures are your weapons - choosing the right weapon 
+for the right battle is the KEY to victory!
+
+Be familiar with the STRENGTHS and WEAKNESSES of each data structure!
+-> time complexities for various operations
+-> why one is better than another
+
+Data Structures That I Need To Know:
+* Arrays
+* Strings
+* Matrix (2D-Arrays)
+* Hash Tables
+* Stack
+* Queue
+* Linked Lists
+* Trees
+* Heaps
+* Graphs
+* Trie

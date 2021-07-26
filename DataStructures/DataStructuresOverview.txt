@@ -17,3 +17,6 @@ Data Structures That I Need To Know:
 * Heaps
 * Graphs
 * Trie
+
+TIP: Practice implementing each of these data structures from
+scratch, as it will strengthen your understanding with them a lot!

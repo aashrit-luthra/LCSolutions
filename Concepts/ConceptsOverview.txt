@@ -6,3 +6,5 @@ The Concepts I Need To Know:
 * BFS
 * DFS
 * Shortest Path (ex: Dijkstra's Algorithm)
+* Binary Search
+* Prefix Sum

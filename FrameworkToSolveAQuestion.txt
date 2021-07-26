@@ -1,0 +1,39 @@
+There are THREE stages to solving a Coding Interview Problem!
+
+1. BEFORE Coding
+
+a. Analyze
+-> Read and understand the question
+-> List the input, output, and process
+
+b. Clarify
+-> Ask clarifying questions of the input or output type if needed
+-> Ask clarifying questions on the process if not totally clear
+-> Ask how edge cases should be dealt with 
+
+c. Describe
+-> Explain the question to yourself again, with the heightened knowledge you now have
+
+2. WHILE Coding
+
+a. Brainstorm
+-> Brainstorm possible solutions of how to solve the Problem
+-> Evaluate time complexity and space complexity of these different approaches
+-> Use examples if needed, and solve the 'human' way to come up with an algorithm
+-> Write algorithm in plain english to have as an outline
+
+b. Write
+-> Talk and think out loud while you are writing code
+-> Make sure each line is doing what is intended
+-> Ensure you are writing clean and modularized code
+
+c. Test
+-> Take an example, and run through the algorithm with the test case
+
+3. AFTER Coding
+
+a. Review & Reflect
+-> State time and space complexity
+
+b. Discuss Improvements
+-> If needed, state how the code can be improved

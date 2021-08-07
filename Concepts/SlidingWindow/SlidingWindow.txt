@@ -1,0 +1,49 @@
+Sliding Window is a very powerful algorithmic technique!
+
+What is a Sliding Window?
+
+You have a large area (ie. array), and you have a window within it (in a subset), and you then 
+ask questions!
+
+If the window is fixed size => Static Sliding Window
+If the window is dynamically changing size => Dynamic Sliding Window
+
+Benefits:
+
+More efficient approach than brute force algorithm which usually does repeated work a lot.
+(ie. Brings O(n * k) ~ O(n^2) to O(n))
+
+Example Problems:
+
+Find Maximum Sum of a Contiguous Subarray of Size K (3)
+-> Fixed Size (of 3)
+-> Want to find Maximum Sum
+
+Brute Force way would bo:
+- loop from 0 to n - 3
+- inside each loop, loop through the next three elements
+- compute the Sum
+- check if it is Maximum
+- NOTE: checking the sum of an element would be done three times (can make more efficient using Sliding Window!)
+
+Sliding Window Approach:
+- Keep track of a running sum
+- keep a global sum, and update if needed with running sum
+
+-------------
+
+How to Spot Sliding Window??
+
+* CONTIGUOUS sequence of elements / Subarray (grouped sequentially)
+* Can be done on strings, arrays, even linked lists
+* Asks something from: min, max, longest, shortest, contained, running average
+
+----------
+
+Types:
+1. Fixed Length
+2. Dynamic Length
+-> ex: Window with smallest sum >= to some value S
+3. Dynamic Length w/ Auxiliary Data Structure
+-> ex: longest substring w/ no more than k distinct characters
+4. String Permutations

@@ -1,0 +1,13 @@
+Kadane's Algorithm is an alternative to the Sliding Window technique
+when the given array contains negative values. In this case, the sliding window 
+technique wouldn't exactly work!
+
+Idea:
+
+Look at each index I
+-> ask yourself, what is the maximum sum ending at this index I?
+
+at Index I, we ask:
+- would the sum be higher if I add the current value to the runningSum or would the
+value alone (start from scratch) be higher?
+- then choose [prevSubarry,currentVal] or currentVal

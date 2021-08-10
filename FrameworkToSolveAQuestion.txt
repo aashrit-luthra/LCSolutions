@@ -2,7 +2,7 @@ There are THREE stages to solving a Coding Interview Problem!
 
 1. BEFORE Coding
 
-a. Analyze
+a. Read and Understand
 -> Read and understand the question
 -> List the input, output, and process
 

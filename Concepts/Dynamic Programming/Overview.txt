@@ -1,0 +1,43 @@
+Dynamic Programming is all about sub-problemming! (subproblems!)
+
+Why are we repeating computation of sub-problems?
+Why can't we just memoize subproblems and save for later!
+
+There are two ways to approach recursion / dynamic programming problems:
+1. Top-Down (very intuitive; memoization)
+2. Bottom-Up (start from the bottom; work our way up to the answer)
+
+Dynamic Programming is a technique to solve certain kinds of algorithmic coding problems.
+
+Used to solve naive-exponential time algortihms in polynomial time (exponential -> polynomial)
+(Optimization technique; optize from exponential to polynomical)
+
+To solve a question with DP, it must have two properties:
+1. Optimal substructure
+- optimal 
+- substructure
+- optimal solution can be gained from optimal solutions to substructures (subproblems)
+- complex problems can be solved by splitting into pieces
+2. Overlappng subproblems
+- when you break a problem into multiple subproblems, there may be duplication in computation required
+- duplicste computations required
+- candidate for dynamic programming
+
+Not every problem has these properties, but if they do, then you solve with dp!
+
+Types of problems:
+- Combinatoric (How may? ....)
+- Optimization (What is the minimum number? Maximum profit??)
+
+Memoization - caching  
+
+Framework:
+- Define Objective Function
+- Identify Base cases
+- Recurrence Relations
+- Order of computation
+-   bottom-up / top-down
+- Location of answer
+-   in this case, answer is in F(n)
+
+

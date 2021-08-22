@@ -1,0 +1,29 @@
+Binary Trees (Trees, in general) are much different than arrays and linked lists
+- as in, they are not linear
+- non-linear data structures
+
+Subtrees of a node are also Trees (so you can call the same action on them)
+- their subtrees are also Trees
+- therefore, recursive!
+
+- do a recursive function, until you reach a base case
+
+Four Steps:
+- finding one or more base cases
+- calling the same function on the left subtrees
+- calling the same function on the right subtrees
+- joining the results
+
+Traverse Through Trees in two ways:
+- DFS
+- BFS
+
+def dfs(root, path):
+if root is None:
+    return
+else:
+    print(root.val)
+    path.append(root)
+    dfs(root.left)
+    dfs(root.right)
+    path.pop()

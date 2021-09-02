@@ -9,4 +9,4 @@ Then it is true
 
 Return this bool && function (left) && function (right)
 
-"""
+""" 
